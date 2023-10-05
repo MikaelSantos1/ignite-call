@@ -3,6 +3,7 @@ import { Container, Hero, Preview } from "./styles";
 
 import Image from "next/image";
 import previewImage from '../../assets/app-review.svg';
+import { ClainUsernameForm } from "./components/ClaimUsernameForm";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
                 <Text size='lg'>
                     Conecte seu calendário e permita que as pessoas marquem agendamentos no seu tempo livre.
                 </Text>
+                <ClainUsernameForm />
             </Hero>
             <Preview>
                 <Image
